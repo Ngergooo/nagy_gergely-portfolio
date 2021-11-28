@@ -1,0 +1,113 @@
+body { padding: 0; 
+margin: 0;
+background-color: black;
+background-image: url(enrekfekr.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+font-family: sans-serif;
+min-height: 150vh;
+
+}
+
+.doboz { 
+display: flex;
+flex-direction: column;
+ }
+
+.Főoldal { display: flex; 
+align-items: center;
+font-size: 1.3em;
+color: white ;
+text-decoration: none;}
+
+.Főoldal2 { margin: 1rem; }
+.főnav ul , .láb-nav ul{
+ display: flex;
+ margin: 0;
+ padding: 0;
+ list-style: none;
+
+ }
+ .főnav a,.láb-nav a { color: white;
+ text-decoration: none;
+ padding: 1rem; }
+
+ .főnav a:hover { color: skyblue; }
+ .láb-nav a:hover { color: skyblue; }
+
+
+ .fej, .láb {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	
+ }
+ .fej {height: 120px;}
+ .doboz { 
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 30px; 
+}
+.láb ,.tartó { 
+display: flex;
+justify-content: space-between; }
+.láb { height: 60px;
+
+font-weight: bold; }
+.social-link { text-decoration: none;
+color: white; }
+.flex1{
+    display: flex;
+
+    flex-wrap: wrap;
+  }
+
+div h3 { display: inline-flex;
+ justify-content: center;
+color:skyblue;}
+
+  .flex{
+flex-grow: 10; 
+    text-align: right;
+  }
+
+
+
+  .flex1{
+    
+    justify-content: space-around; 
+  }
+
+  .kartya{
+    max-height: 30rem;
+    display: block;
+    background-color: transparent;
+    
+    border-radius: 10px;
+    padding: .4rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .kartya img{
+    max-height: 15rem;
+    display: block;
+    margin: .4rem auto;
+  }
+
+
+  
+  
+  
+.grid1{
+  display: grid;
+    
+
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)) ;
+
+    grid-gap: .10rem; 
+    grid-auto-rows: 2fr;}
+
+.főnav al{ color: white;
+ text-decoration: none;
+ padding: 1rem; }

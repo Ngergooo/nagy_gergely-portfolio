@@ -1,0 +1,70 @@
+.image { position: relative;
+width: 300px; }
+
+body { padding: 0; 
+margin: 0;
+background-color: black;
+background-image: url(./IMG_4327.JPG) ;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: sans-serif;
+min-height: 100vh;
+}
+
+
+.flex1{
+		display: flex;
+
+		flex-wrap: wrap;
+	}
+
+
+
+	.flex{
+flex-grow: 10; 
+		text-align: right;
+	}
+
+
+
+	.flex1{
+		
+		justify-content: space-around; 
+	}
+
+	.kartya{
+		max-height: 30rem;
+		display: block;
+		background-color: black;
+		
+		border-radius: 10px;
+		padding: .4rem;
+		margin: 0;
+		text-align: center;
+	}
+
+	.kartya img{
+		max-height: 15rem;
+		display: block;
+		margin: .4rem auto;
+	}
+
+
+	
+	
+	
+.grid1{
+	display: grid;
+		
+
+		grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)) ;
+
+		grid-gap: .10rem; 
+		grid-auto-rows: 2fr;}
+
+span { display: flex;
+justify-content: center;
+color: white; }
+.főnav al { color: yellow;
+ text-decoration: none;
+ padding: 1rem; }

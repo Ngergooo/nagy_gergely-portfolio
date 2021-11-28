@@ -1,0 +1,23 @@
+.tartó { height: auto;
+ width: 400px; 
+ margin:  300px auto;
+ 
+
+}
+.tartó p { border: white solid 1px;
+color: white;
+padding: 10px 10px 10px 10px; 
+border-radius: 6px;}
+.top { width: 398px;
+	height: 30px;
+	border: 1px solid white;
+ border-radius: 5px ;
+
+ }
+ .tartó .top h3 { margin: 0; 
+ 	padding: 0px 10px;
+ 	line-height: 30px;
+ 	color: lightblue;}
+
+
+ 
